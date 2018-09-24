@@ -3,6 +3,10 @@
 ## Getting Started
 Clone the repo from GitHub
 
+```
+git clone https://github.com/calebhiebert/traefik-setup
+```
+
 ## Step 1. Configue Docker Compose File
 Add the information your docker compose information.
 Example:
