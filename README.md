@@ -7,7 +7,7 @@ Clone the repo from GitHub
 git clone https://github.com/calebhiebert/traefik-setup
 ```
 
-### Step 1. Configue Docker Compose File
+### Step 1 - Configue Docker Compose File
 Edit the docker compose file to add your containers and [traefik rules](https://docs.traefik.io/configuration/backends/docker/#labels-overriding-default-behavior).
 
 
@@ -38,9 +38,10 @@ Backend + UI Example:
 ```
 
 ### Step 2 - Running the Application
-1.  `Modify docker-compose.yml`
-2.  Run `./start.sh`
-3.  Check docker containers are running `docker ps`
+1.  Modify `docker-compose.yml` to suit your needs
+2.  Modify `traefik.toml` to suit your needs
+3.  Run `./start.sh`
+4.  Check docker containers are running `docker ps`
 
 **Restarting Application**
 `docker-compose restart`
