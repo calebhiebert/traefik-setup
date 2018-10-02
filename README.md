@@ -52,4 +52,4 @@ Backend + UI Example:
 ### Issues - Lets Encrypt Certificates Problems
 1. `rm acme.json`
 2. Run `./start.sh`
-3. Wait 5 Mintes and the Lets Encypt certs should be applied
+3. Wait 5 Minutes and the Lets Encypt certs should be applied
