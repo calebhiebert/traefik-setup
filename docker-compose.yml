@@ -6,7 +6,7 @@ networks:
 
 services:
   traefik:
-    image: traefik:alpine
+    image: traefik:1.7
     restart: always
     ports: 
       - 80:80
